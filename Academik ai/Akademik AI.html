@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fanlar</title>
+  <style>
+
+    body {
+      background: #f0f4f8;
+      font-family: Arial;
+      padding: 30px;
+    }
+
+    .kartalar {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .karta {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+
+    .karta:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.15);
+    }
+
+    .emoji {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .karta h2 {
+      color: #2b6cb0;
+      margin-bottom: 10px;
+    }
+
+    .karta p {
+      color: #4a5568;
+      line-height: 1.6;
+    }
+
+    .tugma {
+      background: #4361ee;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      margin-top: 16px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.3s;
+    }
+
+    .tugma:hover { background: #3451d1; }
+
+  </style>
+</head>
+<body>
+
+  <div class="kartalar">
+
+    <div class="karta">
+      <div class="emoji">📐</div>
+      <h2>Matematika</h2>
+      <p>Algebra, geometriya va DTM testlari</p>
+      <button class="tugma">Boshlash →</button>
+    </div>
+
+    <div class="karta">
+      <div class="emoji">⚡️</div>
+      <h2>Fizika</h2>
+      <p>Mexanika, elektr va optika</p>
+      <button class="tugma">Boshlash →</button>
+    </div>
+
+    <div class="karta">
+      <div class="emoji">🧪</div>
+      <h2>Kimyo</h2>
+      <p>Elementlar, reaksiyalar va formulalar</p>
+      <button class="tugma">Boshlash →</button>
+    </div>
+
+    <div class="karta">
+      <div class="emoji">🌿</div>
+      <h2>Biologiya</h2>
+      <p>Tirik organizmlar va tabiat qonunlari</p>
+      <button class="tugma">Boshlash →</button>
+    </div>
+
+    <div class="karta">
+      <div class="emoji">📜</div>
+      <h2>Tarix</h2>
+      <p>O'zbekiston va jahon tarixi</p>
+      <button class="tugma">Boshlash →</button>
+    </div>
+
+    <div class="karta">
+      <div class="emoji">🌍</div>
+      <h2>Ingliz tili</h2>
+      <p>Grammar, vocabulary va speaking</p>
+      <button class="tugma">Boshlash →</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
